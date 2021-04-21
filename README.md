@@ -8,6 +8,7 @@ the source file contains a list of the project IDs you want the tool to download
 FileName:253170
 ```
 with each mod/project having one line.
+If the FileName field is found empty, it will default to the name of the mod.
 You can use `-v <version>` to provide a minecraft version to use when downloading mods, `-m <filepath>` to provide a mod list path, and `-f <folderpath>` to provide a folder in which the mods will be downloaded.
 version defaults to whatever is in the mcVersion field of the config.json file that you should put in `~/.modUpdater/config.json`
 mod list path defaults to `~/.modUpdater/mods.txt`
